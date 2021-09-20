@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MY_FIRST_PROJECT_OF_BUTTON__LINK_
+namespace BUTTON_LINK_CLICKER_2021
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -25,24 +25,16 @@ namespace MY_FIRST_PROJECT_OF_BUTTON__LINK_
             InitializeComponent();
         }
 
-        private void Button_DpiChanged(object sender, DpiChangedEventArgs e)
-        {
-
-        }
-
         private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
             System.Diagnostics.Process.Start(e.Uri.AbsoluteUri);
+
         }
 
         private void Hyperlink_RequestNavigate_1(object sender, RequestNavigateEventArgs e)
         {
             System.Diagnostics.Process.Start(e.Uri.AbsoluteUri);
-        }
 
-        private void Hyperlink_RequestNavigate_2(object sender, RequestNavigateEventArgs e)
-        {
-            System.Diagnostics.Process.Start(e.Uri.AbsoluteUri);
         }
     }
 }

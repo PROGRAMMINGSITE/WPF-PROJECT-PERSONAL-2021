@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace MY_FIRST_PROJECT_OF_BUTTON__LINK_
+namespace BUTTON_LINK_CLICKER_2021
 {
     /// <summary>
     /// Interaction logic for App.xaml
